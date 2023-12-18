@@ -20,18 +20,19 @@ integration
         cd /opt
 
         wget
-        http://mirrors.estointernet.in/apache/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
+        https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
 
-        tar -xvzf apache-maven-3.6.1-bin.tar.gz
-
+        tar -xvzf apache-maven-3.9.6-bin.tar.gz
+    
 1.  Setup M2_HOME and M2 paths in .bash_profile of the user and add these to the path variable
 
         vi ~/.bashrc
 
         export M2_HOME=/opt/maven
-        export M2=\$M2_HOME/bin
+        export M2=$M2_HOME/bin
+        export PATH=$PATH:$M2_HOME:$M2
 
-        PATH=PATH:\$M2_HOME:\$M2
+   
 
 #### **Checkpoint**
 
