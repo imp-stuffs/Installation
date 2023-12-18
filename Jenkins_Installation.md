@@ -53,29 +53,23 @@ optimizing and streamlining the software development lifecycle.
 You can install jenkins using the rpm or by setting up the repo. We will
 set up the repo so that we can update it easily in the future.
 
-> Get the latest version of jenkins from
-> [[https://pkg.jenkins.io/redhat-stable/]{.underline}](https://pkg.jenkins.io/redhat-stable/)
-> and install
->
-> sudo wget -O /etc/yum.repos.d/jenkins.repo \\
->
-> https://pkg.jenkins.io/redhat-stable/jenkins.repo
->
-> sudo rpm \--import
-> https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
->
-> sudo dnf install jenkins -y
->
-> **Start Jenkins**
->
-> sudo systemctl enable jenkins
->
-> sudo systemctl start jenkins
->
-> **Accessing Jenkins\
-> **By default jenkins runs at port 8080, You can access jenkins at
->
-> http://YOUR-SERVER-PUBLIC-IP:8080
+Get the latest version of jenkins from
+ [[https://pkg.jenkins.io/redhat-stable/]{.underline}](https://pkg.jenkins.io/redhat-stable/) and install
+
+        sudo wget -O /etc/yum.repos.d/jenkins.repo \\https://pkg.jenkins.io/redhat-stable/jenkins.repo
+        sudo rpm \--import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+        sudo dnf install jenkins -y
+
+**Start Jenkins**
+
+        sudo systemctl enable jenkins
+        sudo systemctl start jenkins
+
+**Accessing Jenkins\
+**By default jenkins runs at port 8080, You can access jenkins at
+
+        http://YOUR-SERVER-PUBLIC-IP:8080
 
 #### **Configure Jenkins**
 
