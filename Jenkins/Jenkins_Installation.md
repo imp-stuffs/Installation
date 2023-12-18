@@ -20,6 +20,9 @@ optimizing and streamlining the software development lifecycle.
 
 ## **Install Java**
 
+        sudo dnf update
+
+
 1.  We will be using java-17-amazon-corretto
 
         sudo dnf install java-17-amazon-corretto -y
