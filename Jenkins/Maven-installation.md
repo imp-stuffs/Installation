@@ -22,6 +22,7 @@ integration
         sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
 
         sudo tar -xvzf apache-maven-3.9.6-bin.tar.gz
+        mv apache-maven-3.9.6-bin.tar.gz maven
     
 1.  Setup M2_HOME and M2 paths in .bash_profile of the user and add these to the path variable
 
