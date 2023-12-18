@@ -30,13 +30,13 @@ optimizing and streamlining the software development lifecycle.
 
         ls /usr/lib/jvm/
 
-        vi \~/.bashrc
+        vi ~/.bashrc
 
         export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto
 
         export PATH=\$PATH:\$JAVA_HOME/bin
 
-        source \~/.bashrc
+        source ~/.bashrc
 
         java -version
 
