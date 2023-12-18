@@ -14,42 +14,39 @@ optimizing and streamlining the software development lifecycle.
 1.  EC2 Instance
 
     -   With Internet Access
-
     -   Security Group with Port 8080 open for internet
 
-2.  java-17-amazon-corretto
+2. Need java-17-amazon-corretto
 
 ## **Install Java**
 
 1.  We will be using java-17-amazon-corretto
 
-sudo dnf install java-17-amazon-corretto -y
+        sudo dnf install java-17-amazon-corretto -y
 
 2.  Confirm Java Version and set the java_home
 
-java -version
+        java -version
 
-ls /usr/lib/jvm/
+        ls /usr/lib/jvm/
 
-vi \~/.bashrc
+        vi \~/.bashrc
 
-export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto
+        export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto
 
-export PATH=\$PATH:\$JAVA_HOME/bin
+        export PATH=\$PATH:\$JAVA_HOME/bin
 
-source \~/.bashrc
+        source \~/.bashrc
 
-java -version
+        java -version
 
 3.  *The output should be something like this,*
 
-\[root@\~\]# java -version
+\[root@\~\]#     java -version
 
-openjdk version \"1.8.0_151\"
-
-OpenJDK Runtime Environment (build 1.8.0_151-b12)
-
-OpenJDK 64-Bit Server VM (build 25.151-b12, mixed mode)
+        openjdk version \"1.8.0_151\"
+        OpenJDK Runtime Environment (build 1.8.0_151-b12)
+        OpenJDK 64-Bit Server VM (build 25.151-b12, mixed mode)
 
 ## **Install Jenkins**
 
