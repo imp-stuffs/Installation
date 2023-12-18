@@ -26,7 +26,7 @@ integration
 
 1.  Setup M2_HOME and M2 paths in .bash_profile of the user and add these to the path variable
 
-        vi \~/.bashrc
+        vi ~/.bashrc
 
         export M2_HOME=/opt/maven
         export M2=\$M2_HOME/bin
