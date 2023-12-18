@@ -33,8 +33,7 @@ optimizing and streamlining the software development lifecycle.
         vi ~/.bashrc
 
         export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto
-
-        export PATH=\$PATH:\$JAVA_HOME/bin
+        export PATH=$PATH:$JAVA_HOME/bin
 
         source ~/.bashrc
 
@@ -56,8 +55,9 @@ set up the repo so that we can update it easily in the future.
 Get the latest version of jenkins from
  [[https://pkg.jenkins.io/redhat-stable/]{.underline}](https://pkg.jenkins.io/redhat-stable/) and install
 
-        sudo wget -O /etc/yum.repos.d/jenkins.repo \\https://pkg.jenkins.io/redhat-stable/jenkins.repo
-        sudo rpm \--import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+        sudo wget -O /etc/yum.repos.d/jenkins.repo \
+            https://pkg.jenkins.io/redhat-stable/jenkins.repo
+        sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
         sudo dnf install jenkins -y
 
