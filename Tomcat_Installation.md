@@ -1,7 +1,7 @@
 # Tomcat installation on EC2 instance
 
 ### Pre-requisites
-1. EC2 instance with Java v1.8.x 
+1. EC2 instance with OpenJDK 17 
 
 ### Install Apache Tomcat
 1. Download tomcat packages from  https://tomcat.apache.org/download-80.cgi onto /opt on EC2 instance
