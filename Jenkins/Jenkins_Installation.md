@@ -46,9 +46,10 @@ optimizing and streamlining the software development lifecycle.
 
 \[root@\~\]#     java -version
 
-        openjdk version \"1.8.0_151\"
-        OpenJDK Runtime Environment (build 1.8.0_151-b12)
-        OpenJDK 64-Bit Server VM (build 25.151-b12, mixed mode)
+        openjdk version "17.0.9" 2023-10-17 LTS
+        OpenJDK Runtime Environment Corretto-17.0.9.8.1 (build 17.0.9+8-LTS)
+        OpenJDK 64-Bit Server VM Corretto-17.0.9.8.1 (build 17.0.9+8-LTS, mixed mode, sharing)
+
 
 ## **Install Jenkins**
 
