@@ -10,8 +10,10 @@
    cd /opt
    wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.84/bin/apache-tomcat-9.0.84.tar.gz
    tar -xvzf /opt/apache-tomcat-9.0.84.tar.gz
-   mv apache-tomcat-9.0.84.tar.gz tomcat
+   mv apache-tomcat-9.0.84 tomcat
+   sudo dnf install java-17-amazon-corretto -y
    ```
+   
 1. give executing permissions to startup.sh and shutdown.sh which are under bin. 
    ```sh
    chmod +x /opt/tomcat/bin/startup.sh 
